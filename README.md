@@ -2,24 +2,24 @@
 <img src="https://github.com/koflerm/tensorflow-image-classifier/blob/master/image.png?raw=true" />
 Image Classification using google pretrained model inception v3 
 
+Transfer learning is a machine learning algorithm which utilized pretrained neural network. This file contains some details about incepetion v3 model and how to run the code for training your own images with the pretrained model.
 
-Please follow the following steps to train your own images with google inception model
-To get some technical details of this model, model is build using tensorflow library. To get knowledge about the tensorflow feel free to visit this link
-https://www.tensorflow.org/
-Steps to run this Program
+You can further refer this link to know more about Inception architecture https://arxiv.org/pdf/1512.00567.pdf
 
-1.) Download all the files placed under this repository.
+Inception-v3 consist of two parts
 
-2.) Since the size of model is more than 100 MB, so for ease I am placing here google drive link to download the inception model.https://drive.google.com/drive/folders/1VYtm25TAxT1P-YVud2n5GGSAYs8IdKWn?usp=sharing. When you will download the model using this link you will get two folder named as tf_files and training_dataset. Please place your customized images inside training_dataset 
+Part1: It deals with feature extraction part using a convolutional neural network
+Part2: classification part (Fully connected and softmax layer)
 
-3.) To check the working of the model with model testing image (cropped_panda.jpg) please run the python pre_model_test.py
-
-4.) To train the model with your own images, please place the images in the training_dataset folder and run the python file python train_data.py
-
-5.) To perform the real time testing, Please open the file test_data_pred.py and place the path of real time image you want to test as image_path = "xxxxxx"
-
-6.) You wil get the score as the output.
+The best of transfer learning lies in saving the computation cost. Training the new images (user images) with such model does not require training Part1 which is feature extraction as it is most complex part of the model.
 
 
-Thanks for reading the instruction.
+Inception-v3 is trained for the ImageNet Large Visual Recognition Challenge using the data from 2012. You can visit the following link to visit ImageNet (http://image-net.org/) Where models try to classify entire images into 1000 classes like "Zebra", "Dalmatian", and "Dishwasher
+
+Moreover the model is trained using numerical computation library TensorFlow. To know and read more about Tensor flow please visit this link https://www.tensorflow.org/
+
+To get to know how to run the code, please visit the followink link. The best part of this link will be along with the instructions to run the file there is also beatutiful and understandable documentation of understanding the inception v3 model.
+
+	
+
 
