@@ -21,5 +21,8 @@ Moreover the model is trained using numerical computation library TensorFlow. To
 To get to know how to run the code, please visit the followink link. The best part of this link will be along with the instructions to run the file there is also beatutiful and understandable documentation of understanding the inception v3 model.
 
 	
+AI Sangam believes in providing quality service to the end user or clients. If you want any query or want to build AI Application, please email us at  aisangamofficial@gmail.com. We will reflect you back. Our services are paid but we can provide free guidance or suggestions. For full fledged application you need to contact us at our email. 
+
+ Further you may subscribe our you tube channel https://bit.ly/2rciVLu. Hope blog http://www.aisangam.com/blog/ as well as you tube channel will also help you lot. 
 
 
